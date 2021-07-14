@@ -15,3 +15,8 @@ fn calculate_length(s: &String) -> usize { // s is a reference to a String
  // it refers to, nothing happens. 
 
  // Also it is important to note that references are immutable 
+
+//  mutable references have one big restriction: 
+//  you can have only one mutable reference to a particular piece of data in a particular scope. 
+
+
